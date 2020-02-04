@@ -23,7 +23,7 @@ The WorkingDaysCalculator is a demonstration of calculating the number of workin
 
 ## Getting Started
 
-The following code snippet illustrates the use of the calculator to calculate the working days between the current day and a specified end date accounting for 2020 public holidays in England:
+The following code snippet illustrates the use of the calculator to calculate the working days between two dates accounting for 2020 public holidays in England:
 
 ```csharp
 DateTime[] bankHolidays =
@@ -38,7 +38,7 @@ DateTime[] bankHolidays =
     new DateTime(2020, 12, 28)
 };
 
-DateTime start = DateTime.Now;
+DateTime start = new DateTime(2020, 1, 24);
 DateTime end = new DateTime(2020, 4, 24);
 
 WorkingDaysCalculator calculator = new WorkingDaysCalculator();
