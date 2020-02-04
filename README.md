@@ -19,7 +19,7 @@ The WorkingDaysCalculator is a demonstration of calculating the number of workin
 * If the end date is not a Saturday, roll it forward to the next Saturday, counting the number of working days required, _fe_
 * Calculate the number of working days between the adjusted start and end dates
 * Divide by 7 to give the number of complete weeks, _w_
-* Calculate the number of working days as 5 * _w_ + _fs_ + _fe_ + 1
+* Calculate the number of working days as 5 * _w_ + _fs_ - _fe_ - 1
 
 ## Getting Started
 
