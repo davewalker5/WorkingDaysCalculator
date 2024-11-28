@@ -49,7 +49,7 @@ Console.WriteLine($"There are {days} working days between {start.ToString("dd/MM
 
 ## Authors
 
-- **Dave Walker** - *Initial work* - [LinkedIn](https://www.linkedin.com/in/davewalker5/)
+- **Dave Walker** - *Initial work*
 
 ## Feedback
 
